@@ -113,61 +113,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-  height: 40px;
-  font-size: 14px;
-  transition: all 0.5s;
-}
-
-#topbar.topbar-scrolled {
-  top: -40px;
-}
-
-#topbar .contact-info {
-  color: white;
-}
-
-#topbar .contact-info i {
-  color: #d9ba85;
-  padding-right: 4px;
-}
-
-#topbar .contact-info i + i {
-  margin-left: 15px;
-}
-
-#topbar .languages ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  color: #cda45e;
-}
-
-#topbar .languages ul a {
-  color: white;
-}
-
-#topbar .languages ul li + li {
-  padding-left: 10px;
-}
-
-#topbar .languages ul li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  content: "/";
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(12, 11, 9, 0.6);
-  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+  background: black;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -225,16 +174,16 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: white;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #d9ba85;
+  color: green;
 }
 
-.nav-menu .book-a-table a {
-  border: 2px solid #cda45e;
+.nav-menu .launch-app a {
+  border: 2px solid green;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -245,8 +194,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.nav-menu .book-a-table a:hover {
-  background: #cda45e;
+.nav-menu .launch-app a:hover {
+  background: green;
   color: #fff;
 }
 
@@ -280,11 +229,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #1a1814;
+  color: green;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #cda45e;
+  color: green;
 }
 
 .nav-menu .drop-down > a:after {
@@ -356,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9999;
   overflow-y: auto;
   background: #1a1814;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px green;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -391,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #fff;
+  color: white;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -399,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #cda45e;
+  color: green;
   text-decoration: none;
 }
 
@@ -415,9 +364,9 @@ h1, h2, h3, h4, h5, h6 {
   content: "\eaa1";
 }
 
-.mobile-nav .book-a-table a {
+.mobile-nav .launch-app a {
   color: #fff;
-  border: 2px solid #cda45e;
+  border: 2px solid green;
   border-radius: 50px;
   margin: 20px 0 0 0;
   padding: 10px 25px;
@@ -429,8 +378,8 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
-.mobile-nav .book-a-table a:hover {
-  background: #cda45e;
+.mobile-nav .launch-app a:hover {
+  background: green;
   color: #fff;
 }
 
@@ -470,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: green;
 }
 
 /*--------------------------------------------------------------
@@ -479,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero.jpg") top center;
+  background: url("../img/hero.png") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -541,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 
-#hero .btn-menu, #hero .btn-book {
+#hero .btn-menu, #hero .btn-launch {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -552,15 +501,15 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   line-height: 1;
   color: white;
-  border: 2px solid #cda45e;
+  border: 2px solid green;
 }
 
-#hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #cda45e;
+#hero .btn-menu:hover, #hero .btn-launch:hover {
+  background: green;
   color: #fff;
 }
 
-#hero .btn-book {
+#hero .btn-launch {
   margin-left: 15px;
 }
 
@@ -815,7 +764,7 @@ section {
 
 .about .about-img img {
   max-width: 100%;
-  border: 4px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
 }
 
