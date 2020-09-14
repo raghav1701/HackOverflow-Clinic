@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Overflow Clinic</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script >
+  
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+  </script>
+
+</head>
+
+<body>
+
+
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+    
+      <a href="index.html" class="logo mr-auto"><img src="assets/img/nav.png" alt="" class="img-fluid"></a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#about-boxes">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="launch-app text-center"><a href="https://overflow-clinic.web.app/">Launch Web APP</a></li>
+          <li class="launch-app text-center"><a href="https://drive.google.com/drive/folders/1Ln2NTTMGN8nAMfP0iSHNU3gBxFJns9hW?usp=sharing">Download APP</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8" data-aos="zoom-in" data-aos-delay="200">
+          <p>Welcome to <span>Hackoverflow Clinic</span>
+
+          </p>
+         <h2><br>Online
+					<span
+						class="txt-rotate"
+						data-period="1"
+						data-rotate='[ "Eyes And Ears Testing"]'></span>
+					</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/about.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Online Ears And Eyes Testing Plateform</h3>
+            <p class="font-italic">
+              It is health that is real wealth and not pieces of gold and silver
+            </p>
+            <ul>
+              <li><i class="icofont-check-circled"></i> Various Types Of Eye And Ear Checkups</li>
+              <li><i class="icofont-check-circled"></i> Track Record Of Frequent Health Checkups Of Patients And To Download The Report At Any Point Of Time</li>
+              <li><i class="icofont-check-circled"></i> Healthy Tips For Better Vision</li>
+              <li><i class="icofont-check-circled"></i> Download Our APP For Better Experience</li>
+            </ul>
+            <p>
+              Nowadays during the pandemic situation, it has been such a tense time for almost every outdoor activity including our crucial health checkups. 
+To solve the problem for the eye and ear checkup team Hackerflow came with the solution Overflow clinic.
+We come with the solution introducing the essential hassle-free home online <b>Eye And Ear Check-Up</b> accessible on any gadget at home.
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+<!-- ======= Services Section ======= -->
+<section id="about-boxes" class="about-boxes">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Services</p>
+          
+            <br>
+          <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src="assets/img/eye.png" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="ri-eye-2-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="https://overflow-clinic.web.app/">Eyes Testing</a></h5>
+                <p class="card-text">Download App For Eye Testing</p>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/ears.png" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="ri-user-voice-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="https://overflow-clinic.web.app/">Ears Testing</a></h5>
+                <p class="card-text">Download App For Ear Testing</p>
+              </div>
+            </div>
+          </div>
+        </div>          
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+      </div>
+
+      <div data-aos="fade-up">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.7004873451447!2d79.05294861503118!3d21.16431458851251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0529518230f%3A0x45b76be0621cbb88!2sIIIT%20Campus!5e0!3m2!1sen!2sin!4v1600061079867!5m2!1sen!2sin"" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>IIIT NAGPUR</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>hackoverflow@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+917042347146</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="8" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3><b>Overflow Clinic</h3></b>
+              <p>
+                IIIT Nagpur <br>
+                Maharashtra<br><br>
+                <strong>Phone:</strong> +91 7042347146<br>
+                <strong>Email:</strong> hackoverflow@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about-boxes">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about-boxes">Eye Test</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about-boxes">Ear Test</a></li>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-newsletter">
+            <h4><b>Developed By:</h4></b>
+            <h4><b>Raghav Agrawal</h4></b>
+            <h4><b>Priyank Singh</h4></b>
+            <h4><b>Kirteeraj Malkar</h4></b>
+            <h4><b>Pranav Patil</h4></b>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+<h4><center>Team: HackOverflow, Hackathon Website @ IIIT Nagpur</h4></center>
+    
+    </div>
+  </footer>
+
+
+
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+
+
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+ 
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+
